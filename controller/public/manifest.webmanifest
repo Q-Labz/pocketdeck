@@ -1,0 +1,17 @@
+{
+  "name": "PocketDeck",
+  "short_name": "PocketDeck",
+  "description": "Control your Mac from your iPhone",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#142028",
+  "theme_color": "#142028",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
