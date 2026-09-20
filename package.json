@@ -1,0 +1,17 @@
+{
+  "name": "pocketdeck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Control your MacBook or Mac mini from your iPhone over the local network",
+  "scripts": {
+    "build": "npm run build --prefix controller",
+    "start": "npm run start --prefix mac-agent",
+    "dev": "npm run build && npm run start",
+    "dev:ui": "npm run dev --prefix controller",
+    "setup": "npm install && npm install --prefix mac-agent && npm install --prefix controller && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
